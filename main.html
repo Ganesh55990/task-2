@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans leading-normal tracking-normal">
+    <header class="bg-gray-800 py-4 w-screen">
+        <nav class="w-full container mx-auto px-4 flex items-center justify-between gap-4">
+            <a class="hidden text-white font-bold lg:block" href="#">Ganesh Konda Webpage Demo</a>
+            <a class="block text-white font-bold lg:hidden" href="#">Ganesh</a>
+            <div class="flex items-center">
+                <ul class="hidden md:flex">
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#home">Home</a></li>
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#about">About</a></li>
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#services">Services</a></li>
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#blog">Blog</a></li>
+                </ul>
+                <ul class="md:hidden flex">
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#home">🏠</a></li>
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#about">🤘</a></li>
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#services">💁️</a></li>
+                    <li class="mr-6"><a class="text-white hover:text-gray-300" href="#blog">📬</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-8" id="home">
+            <h2 class="text-2xl font-bold mb-4">Home</h2>
+            <p class="mb-4">This is a simple webpage created with HTML and TailwindCSS. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna id malesuada facilisis, magna mauris volutpat purus, vel viverra elit tellus a mi.</p>
+            <p>Nullam ac nisl at lectus rhoncus efficitur. Fusce quis orci ut eros varius tincidunt. Sed feugiat eros id tellus fringilla, id ultrices leo bibendum.</p>
+        </section>
+        <section class="mb-8" id="services">
+            <h2 class="text-2xl font-bold mb-4">Services</h2>
+            <ul class="list-disc pl-4 mb-4">
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+            <p>Our services are designed to meet your needs and exceed your expectations. We offer a wide range of solutions tailored to your specific requirements.</p>
+        </section>
+        <section class="mb-8" id="blog">
+            <h2 class="text-2xl font-bold mb-4">Blog</h2>
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/500x300" alt="Blog Post 1">
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold mb-2">Blog Post 1</h3>
+                            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/500x300" alt="Blog Post 2">
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold mb-2">Blog Post 2</h3>
+                            <p class="text-gray-600">Nullam ac nisl at lectus rhoncus efficitur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/500x300" alt="Blog Post 3">
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold mb-2">Blog Post 3</h3>
+                            <p class="text-gray-600">Fusce quis orci ut eros varius tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 py-4 mt-8" id="about">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-white">&copy; 2024 Ganesh Webpage. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
